@@ -8,3 +8,5 @@ elif temperature == "fahrenheit":
     fahrenheit = int(input("Enter your temperature in fahrenheit: "))
     celsius = (fahrenheit - 32) * 5/9
     print(f"{celsius}°C")
+else:
+    print("Please choose between \"celsius\" and \"fahrenheit\"")
